@@ -1,6 +1,7 @@
-*, html {
+*,
+html {
   font-size: 16px;
-  font-family: fantasy;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
 }
 
 body {
@@ -12,7 +13,6 @@ body {
   /* background-size:cover  ; */
   /* background-color:; */
   width: 100%;
- 
 }
 #body {
   width: 50%;
@@ -25,7 +25,6 @@ body {
   flex-direction: column;
   padding: 2%;
   /* background-color:  #8AAAE5; */
-  
 }
 #title {
   /* border: 1px red solid; */
@@ -34,12 +33,12 @@ body {
   margin-bottom: 5%;
   margin-left: auto;
   margin-right: auto;
-  font-size: clamp(3rem, 4vw, 5rem);
+  font-size: clamp(1rem, 4vw, 5rem);
 }
 #display {
   /* border: 2px  solid; */
   height: 60%;
-  font-size: clamp(3rem, 4vw, 5rem);
+  font-size: clamp(1rem, 4vw, 5rem);
   text-align: center;
   justify-content: center;
   align-content: center;
@@ -62,7 +61,7 @@ body {
   border-radius: 10px;
   /* border: 1px red solid; */
   border: 0px;
-  font-size: clamp(0.6rem, 1.6vw, 2rem);
+  font-size: clamp(1rem, 1.6vw, 2rem);
   background-color: #89abe3;
   width: 100px;
   margin-left: auto;
@@ -74,8 +73,7 @@ body {
   transition: 200ms;
 }
 
-.buttons:hover
-{
+.buttons:hover {
   background-color: beige;
   cursor: pointer;
 }
